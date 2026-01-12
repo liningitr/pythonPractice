@@ -46,3 +46,20 @@ python -m pip --version
 python3.11 -m pip --version
 python3.10 -m pip --version
 ```
+## Install spyder via pip (system or virtual env)
+
+Install prerequisites 
+```
+sudo apt update
+sudo apt install python3.11-pip python3.11-venv -y
+```
+Create virtual env for spyder and activate it
+```
+python3.11 -m venv spyder-env
+source spyder-env/bin/activate
+```
+Install and run spyder
+```
+pip install spyder
+spyder
+```
