@@ -1,20 +1,5 @@
-import pandas as pd
 """
 pandasSeries.py
-
-Demonstrates basic usage of pandas.Series: creation, indexing, arithmetic,
-aggregation, and boolean selection.
-
-A pandas Series is a one-dimensional labeled array capable of holding any data
-type. It is one of the two primary data structures in the pandas library,
-the other being the DataFrame. A Series is analogous to a single column in a
-spreadsheet or table.
-
-Key components:
-- Data: The values stored in the Series (e.g., numbers, strings, Python objects).
-- Index: Labels associated with each data value used for identification and
-    retrieval. If no index is specified, integer labels starting from 0 are
-    assigned automatically.
 
 This module demonstrates:
 - Creating a Series from a Python list with a custom index.
@@ -25,6 +10,7 @@ This module demonstrates:
 - Selecting elements using boolean indexing.
 """
 
+import pandas as pd
 
 def main():
     # Series from a list with a custom index
