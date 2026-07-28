@@ -40,7 +40,7 @@ python --version
 python -m pip --version
 ```
 
-## Check pip for a specific Python version
+## Check pip version for a specific Python
 
 ```
 python3.11 -m pip --version
